@@ -1,0 +1,21 @@
+{
+  "app": {
+    "name": "GitRepoFlow",
+    "tagline": "repo → isometric architecture",
+    "description": "GitRepoFlow analyzes any public GitHub repository — its file tree, package manifests, container/infrastructure files and GitHub Actions workflows — and renders the detected architecture as an interactive 3D isometric diagram that can be exported as FossFLOW JSON, SVG or PNG.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "repository": "https://github.com/saurabhgayali/GitRepoFlow"
+  },
+  "author": {
+    "name": "Saurabh Gayali",
+    "email": "saurabh.gayali@gmail.com",
+    "github": "https://github.com/saurabhgayali"
+  },
+  "ai": {
+    "enabled": true,
+    "provider": "auto",
+    "model": "",
+    "note": "provider: auto | lovable | openai | anthropic | google | groq | openrouter | compatible | none. API keys are read from server environment variables only and are never exposed to the browser."
+  }
+}
